@@ -1,0 +1,53 @@
+.line {
+  font-style: italic;
+  color: green;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.login-background {
+  background-image: url(./images/Kite_Login_BG.png);
+  background-size: cover;
+  min-height: 380px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.login {
+  margin: 0 auto;
+  max-width: 580px;
+  position: relative;
+  top: 7%;
+  width: 520px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.link-data {
+  margin-left: 20px;
+}
+
+.logo-margin {
+  margin-left: 120px;
+}
+
+.list-data {
+  margin-left: 40px;
+}
+
+#content::after {
+  content: "\a";
+  white-space: pre;
+  line-height: 2em;
+}
