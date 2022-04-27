@@ -24,7 +24,7 @@ console.log(document.getElementsByClassName('col'));
             <Document file="/pdf/High School Math.pdf" onLoadSuccess={onDocumentLoadSuccess} >
               {Array.from(new Array(noOfPages),
                 (el, index) => (<Page size="A3" pageNumber={index + 1}
-                 width={30} scale={100} alignment={'center'}
+                  width={100} scale={10} alignment={'center'}
                 />),
               )}
             </Document> <PdfHighlighting /></> : <> <div id="docu"><Document file="/pdf/Individual_Student_Score_Report_IE_ELA.pdf" onLoadSuccess={onDocumentLoadSuccess} >
